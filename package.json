@@ -1,0 +1,28 @@
+{
+	"name": "@jfabello/system-errors",
+	"version": "1.0.0",
+	"description": "A Node.js module that maps common POSIX system error codes into custom system error classes.",
+	"keywords": [
+		"posix",
+		"system",
+		"errors",
+		"node",
+		"classes"
+	],
+	"license": "GPL-3.0-only",
+	"author": {
+		"name": "Juan F. Abello",
+		"email": "juan@jfabello.com"
+	},
+	"main": "system-errors.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jfabello/system-errors.git"
+	},
+	"dependencies": {
+		"@jfabello/common-errors": "github:jfabello/common-errors#semver:^1.0"
+	},
+	"engines": {
+		"node": ">=18"
+	}
+}
