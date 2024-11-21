@@ -1,0 +1,28 @@
+{
+	"name": "@jfabello/system-errors",
+	"version": "1.0.0",
+	"description": "Custom system error classes for Node.js that map to POSIX system errors. Based on the file https://github.com/nodejs/node/blob/main/doc/api/os.md.",
+	"keywords": [
+		"posix",
+		"system",
+		"errors",
+		"node",
+		"classes"
+	],
+	"license": "MIT",
+	"author": {
+		"name": "Juan F. Abello",
+		"email": "juan@jfabello.com"
+	},
+	"main": "system-errors.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jfabello/system-errors.git"
+	},
+	"dependencies": {
+		"@jfabello/common-errors": "^1.0.0"
+	},
+	"engines": {
+		"node": ">=18"
+	}
+}
