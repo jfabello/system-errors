@@ -35,7 +35,7 @@ try {
 	if ("code" in error) {
 		throw systemErrors.createErrorFromSystemErrorCode(error.code);
 	} else {
-		throw new systemErrors.UNKNOWN_ERROR();
+		throw new systemErrors.errors.ERROR_UNKNOWN();
 	}
 }
 ```
@@ -50,6 +50,16 @@ console.log(error.message); // Output: The operation does not have enough permis
 ```
 
 This method takes a string as its only argument. It returns an instance of the custom system error class that corresponds to the POSIX system error code passed in the string, or an instance of `ERROR_UNKNOWN` if the string can't be matched to a particular POSIX system error code.
+
+### Custom System Error Classes
+
+The module also provides predefined custom system error classes that can be used directly in your code. These classes can be accessed via the `errors` object. Each class represents a specific POSIX system error and has a descriptive message associated with it:
+
+```javascript
+const systemErrors = require("@jfabello/system-errors");
+const error = new systemErrors.errors.ERROR_NO_ACCESS();
+console.log(error.message); // Output: The operation does not have enough permissions.
+```
 
 ## POSIX System Errors Mapped
 
