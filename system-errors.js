@@ -11,7 +11,7 @@
 const SystemErrorsMap = {};
 
 /**
- * Thrown when the list of arguments is longer than expected. Maps to E2BIG
+ * Thrown when the list of arguments is longer than expected. Maps to E2BIG.
  * @class ERROR_ARGUMENT_LIST_TOO_LONG
  * @extends Error
  */
@@ -24,7 +24,7 @@ class ERROR_ARGUMENT_LIST_TOO_LONG extends Error {
 SystemErrorsMap["E2BIG"] = ERROR_ARGUMENT_LIST_TOO_LONG;
 
 /**
- * Thrown when the operation does not have enough permissions. Maps to EACCES
+ * Thrown when the operation does not have enough permissions. Maps to EACCES.
  * @class ERROR_NO_ACCESS
  * @extends Error
  */
@@ -37,7 +37,7 @@ class ERROR_NO_ACCESS extends Error {
 SystemErrorsMap["EACCES"] = ERROR_NO_ACCESS;
 
 /**
- * Thrown when the network address is already in use. Maps to EADDRINUSE
+ * Thrown when the network address is already in use. Maps to EADDRINUSE.
  * @class ERROR_ADDRESS_IN_USE
  * @extends Error
  */
@@ -50,7 +50,7 @@ class ERROR_ADDRESS_IN_USE extends Error {
 SystemErrorsMap["EADDRINUSE"] = ERROR_ADDRESS_IN_USE;
 
 /**
- * Thrown when the network address is currently unavailable for use. Maps to EADDRNOTAVAIL
+ * Thrown when the network address is currently unavailable for use. Maps to EADDRNOTAVAIL.
  * @class ERROR_ADDRESS_NOT_AVAILABLE
  * @extends Error
  */
@@ -63,7 +63,7 @@ class ERROR_ADDRESS_NOT_AVAILABLE extends Error {
 SystemErrorsMap["EADDRNOTAVAIL"] = ERROR_ADDRESS_NOT_AVAILABLE;
 
 /**
- * Thrown when the network address family is not supported. Maps to EAFNOSUPPORT
+ * Thrown when the network address family is not supported. Maps to EAFNOSUPPORT.
  * @class ERROR_ADDRESS_FAMILY_NOT_SUPPORTED
  * @extends Error
  */
@@ -76,7 +76,7 @@ class ERROR_ADDRESS_FAMILY_NOT_SUPPORTED extends Error {
 SystemErrorsMap["EAFNOSUPPORT"] = ERROR_ADDRESS_FAMILY_NOT_SUPPORTED;
 
 /**
- * Thrown when there is no data available. Try again later. Maps to EAGAIN
+ * Thrown when there is no data available. Try again later. Maps to EAGAIN.
  * @class ERROR_NO_DATA_TRY_AGAIN_LATER
  * @extends Error
  */
@@ -89,7 +89,7 @@ class ERROR_NO_DATA_TRY_AGAIN_LATER extends Error {
 SystemErrorsMap["EAGAIN"] = ERROR_NO_DATA_TRY_AGAIN_LATER;
 
 /**
- * Thrown when the socket already has a pending connection in progress. Maps to EALREADY
+ * Thrown when the socket already has a pending connection in progress. Maps to EALREADY.
  * @class ERROR_SOCKET_PENDING_CONNECTION_IN_PROGRESS
  * @extends Error
  */
@@ -102,7 +102,7 @@ class ERROR_SOCKET_PENDING_CONNECTION_IN_PROGRESS extends Error {
 SystemErrorsMap["EALREADY"] = ERROR_SOCKET_PENDING_CONNECTION_IN_PROGRESS;
 
 /**
- * Thrown when the file descriptor is not valid. Maps to EBADF
+ * Thrown when the file descriptor is not valid. Maps to EBADF.
  * @class ERROR_FILE_DESCRIPTOR_NOT_VALID
  * @extends Error
  */
@@ -115,7 +115,7 @@ class ERROR_FILE_DESCRIPTOR_NOT_VALID extends Error {
 SystemErrorsMap["EBADF"] = ERROR_FILE_DESCRIPTOR_NOT_VALID;
 
 /**
- * Thrown when the data message is not valid. Maps to EBADMSG
+ * Thrown when the data message is not valid. Maps to EBADMSG.
  * @class ERROR_INVALID_DATA_MESSAGE
  * @extends Error
  */
@@ -128,7 +128,7 @@ class ERROR_INVALID_DATA_MESSAGE extends Error {
 SystemErrorsMap["EBADMSG"] = ERROR_INVALID_DATA_MESSAGE;
 
 /**
- * Thrown when the device or resource is busy. Maps to EBUSY
+ * Thrown when the device or resource is busy. Maps to EBUSY.
  * @class ERROR_DEVICE_OR_RESOURCE_BUSY
  * @extends Error
  */
@@ -141,7 +141,7 @@ class ERROR_DEVICE_OR_RESOURCE_BUSY extends Error {
 SystemErrorsMap["EBUSY"] = ERROR_DEVICE_OR_RESOURCE_BUSY;
 
 /**
- * Thrown when the operation was canceled. Maps to ECANCELED
+ * Thrown when the operation was canceled. Maps to ECANCELED.
  * @class ERROR_OPERATION_CANCELLED
  * @extends Error
  */
@@ -154,7 +154,7 @@ class ERROR_OPERATION_CANCELLED extends Error {
 SystemErrorsMap["ECANCELED"] = ERROR_OPERATION_CANCELLED;
 
 /**
- * Thrown when there are no child processes. Maps to ECHILD
+ * Thrown when there are no child processes. Maps to ECHILD.
  * @class ERROR_NO_CHILD_PROCESSES
  * @extends Error
  */
@@ -167,7 +167,7 @@ class ERROR_NO_CHILD_PROCESSES extends Error {
 SystemErrorsMap["ECHILD"] = ERROR_NO_CHILD_PROCESSES;
 
 /**
- * Thrown when the network connection has been aborted. Maps to ECONNABORTED
+ * Thrown when the network connection has been aborted. Maps to ECONNABORTED.
  * @class ERROR_NETWORK_CONNECTION_ABORTED
  * @extends Error
  */
@@ -180,7 +180,7 @@ class ERROR_NETWORK_CONNECTION_ABORTED extends Error {
 SystemErrorsMap["ECONNABORTED"] = ERROR_NETWORK_CONNECTION_ABORTED;
 
 /**
- * Thrown when the network connection has been refused. Maps to ECONNREFUSED
+ * Thrown when the network connection has been refused. Maps to ECONNREFUSED.
  * @class ERROR_NETWORK_CONNECTION_REFUSED
  * @extends Error
  */
@@ -193,7 +193,7 @@ class ERROR_NETWORK_CONNECTION_REFUSED extends Error {
 SystemErrorsMap["ECONNREFUSED"] = ERROR_NETWORK_CONNECTION_REFUSED;
 
 /**
- * Thrown when the network connection has been reset. Maps to ECONNRESET
+ * Thrown when the network connection has been reset. Maps to ECONNRESET.
  * @class ERROR_NETWORK_CONNECTION_RESET
  * @extends Error
  */
@@ -206,7 +206,7 @@ class ERROR_NETWORK_CONNECTION_RESET extends Error {
 SystemErrorsMap["ECONNRESET"] = ERROR_NETWORK_CONNECTION_RESET;
 
 /**
- * Thrown when a resource deadlock has been avoided. Maps to EDEADLK
+ * Thrown when a resource deadlock has been avoided. Maps to EDEADLK.
  * @class ERROR_RESOURCE_DEADLOCK_AVOIDED
  * @extends Error
  */
@@ -219,7 +219,7 @@ class ERROR_RESOURCE_DEADLOCK_AVOIDED extends Error {
 SystemErrorsMap["EDEADLK"] = ERROR_RESOURCE_DEADLOCK_AVOIDED;
 
 /**
- * Thrown when a destination address is required. Maps to EDESTADDRREQ
+ * Thrown when a destination address is required. Maps to EDESTADDRREQ.
  * @class ERROR_DESTINATION_ADDRESS_REQUIRED
  * @extends Error
  */
@@ -232,7 +232,7 @@ class ERROR_DESTINATION_ADDRESS_REQUIRED extends Error {
 SystemErrorsMap["EDESTADDRREQ"] = ERROR_DESTINATION_ADDRESS_REQUIRED;
 
 /**
- * Thrown when an argument is out of the domain of the function. Maps to EDOM
+ * Thrown when an argument is out of the domain of the function. Maps to EDOM.
  * @class ERROR_ARGUMENT_OUT_OF_DOMAIN
  * @extends Error
  */
@@ -245,7 +245,7 @@ class ERROR_ARGUMENT_OUT_OF_DOMAIN extends Error {
 SystemErrorsMap["EDOM"] = ERROR_ARGUMENT_OUT_OF_DOMAIN;
 
 /**
- * Thrown when the disk quota has been exceeded. Maps to EDQUOT
+ * Thrown when the disk quota has been exceeded. Maps to EDQUOT.
  * @class ERROR_DISK_QUOTA_EXCEEDED
  * @extends Error
  */
@@ -258,7 +258,7 @@ class ERROR_DISK_QUOTA_EXCEEDED extends Error {
 SystemErrorsMap["EDQUOT"] = ERROR_DISK_QUOTA_EXCEEDED;
 
 /**
- * Thrown when the file already exists. Maps to EEXIST
+ * Thrown when the file already exists. Maps to EEXIST.
  * @class ERROR_FILE_EXISTS
  * @extends Error
  */
@@ -271,7 +271,7 @@ class ERROR_FILE_EXISTS extends Error {
 SystemErrorsMap["EEXIST"] = ERROR_FILE_EXISTS;
 
 /**
- * Thrown when an invalid pointer address is encountered. Maps to EFAULT
+ * Thrown when an invalid pointer address is encountered. Maps to EFAULT.
  * @class ERROR_INVALID_POINTER_ADDRESS
  * @extends Error
  */
@@ -284,7 +284,7 @@ class ERROR_INVALID_POINTER_ADDRESS extends Error {
 SystemErrorsMap["EFAULT"] = ERROR_INVALID_POINTER_ADDRESS;
 
 /**
- * Thrown when the file is too large. Maps to EFBIG
+ * Thrown when the file is too large. Maps to EFBIG.
  * @class ERROR_FILE_TOO_LARGE
  * @extends Error
  */
@@ -297,7 +297,7 @@ class ERROR_FILE_TOO_LARGE extends Error {
 SystemErrorsMap["EFBIG"] = ERROR_FILE_TOO_LARGE;
 
 /**
- * Thrown when the host is unreachable. Maps to EHOSTUNREACH
+ * Thrown when the host is unreachable. Maps to EHOSTUNREACH.
  * @class ERROR_HOST_UNREACHABLE
  * @extends Error
  */
@@ -310,7 +310,7 @@ class ERROR_HOST_UNREACHABLE extends Error {
 SystemErrorsMap["EHOSTUNREACH"] = ERROR_HOST_UNREACHABLE;
 
 /**
- * Thrown when the identifier has been removed. Maps to EIDRM
+ * Thrown when the identifier has been removed. Maps to EIDRM.
  * @class ERROR_IDENTIFIER_REMOVED
  * @extends Error
  */
@@ -323,7 +323,7 @@ class ERROR_IDENTIFIER_REMOVED extends Error {
 SystemErrorsMap["EIDRM"] = ERROR_IDENTIFIER_REMOVED;
 
 /**
- * Thrown when an illegal byte sequence is encountered. Maps to EILSEQ
+ * Thrown when an illegal byte sequence is encountered. Maps to EILSEQ.
  * @class ERROR_ILLEGAL_BYTE_SEQUENCE
  * @extends Error
  */
@@ -336,7 +336,7 @@ class ERROR_ILLEGAL_BYTE_SEQUENCE extends Error {
 SystemErrorsMap["EILSEQ"] = ERROR_ILLEGAL_BYTE_SEQUENCE;
 
 /**
- * Thrown when an operation is already in progress. Maps to EINPROGRESS
+ * Thrown when an operation is already in progress. Maps to EINPROGRESS.
  * @class ERROR_OPERATION_ALREADY_IN_PROGRESS
  * @extends Error
  */
@@ -349,7 +349,7 @@ class ERROR_OPERATION_ALREADY_IN_PROGRESS extends Error {
 SystemErrorsMap["EINPROGRESS"] = ERROR_OPERATION_ALREADY_IN_PROGRESS;
 
 /**
- * Thrown when a function call was interrupted. Maps to EINTR
+ * Thrown when a function call was interrupted. Maps to EINTR.
  * @class ERROR_FUNCTION_CALL_INTERRUPTED
  * @extends Error
  */
@@ -362,7 +362,7 @@ class ERROR_FUNCTION_CALL_INTERRUPTED extends Error {
 SystemErrorsMap["EINTR"] = ERROR_FUNCTION_CALL_INTERRUPTED;
 
 /**
- * Thrown when an invalid argument was provided. Maps to EINVAL
+ * Thrown when an invalid argument was provided. Maps to EINVAL.
  * @class ERROR_INVALID_ARGUMENT
  * @extends Error
  */
@@ -375,7 +375,7 @@ class ERROR_INVALID_ARGUMENT extends Error {
 SystemErrorsMap["EINVAL"] = ERROR_INVALID_ARGUMENT;
 
 /**
- * Thrown when an unspecified I/O error occurs. Maps to EIO
+ * Thrown when an unspecified I/O error occurs. Maps to EIO.
  * @class ERROR_UNSPECIFIED_IO_ERROR
  * @extends Error
  */
@@ -388,7 +388,7 @@ class ERROR_UNSPECIFIED_IO_ERROR extends Error {
 SystemErrorsMap["EIO"] = ERROR_UNSPECIFIED_IO_ERROR;
 
 /**
- * Thrown when the socket is connected. Maps to EISCONN
+ * Thrown when the socket is connected. Maps to EISCONN.
  * @class ERROR_SOCKET_CONNECTED
  * @extends Error
  */
@@ -401,7 +401,7 @@ class ERROR_SOCKET_CONNECTED extends Error {
 SystemErrorsMap["EISCONN"] = ERROR_SOCKET_CONNECTED;
 
 /**
- * Thrown when the path is a directory. Maps to EISDIR
+ * Thrown when the path is a directory. Maps to EISDIR.
  * @class ERROR_PATH_IS_A_DIRECTORY
  * @extends Error
  */
@@ -414,7 +414,7 @@ class ERROR_PATH_IS_A_DIRECTORY extends Error {
 SystemErrorsMap["EISDIR"] = ERROR_PATH_IS_A_DIRECTORY;
 
 /**
- * Thrown when there are too many levels of symbolic links in a path. Maps to ELOOP
+ * Thrown when there are too many levels of symbolic links in a path. Maps to ELOOP.
  * @class ERROR_TOO_MANY_SYMLINKS_LEVELS
  * @extends Error
  */
@@ -427,7 +427,7 @@ class ERROR_TOO_MANY_SYMLINKS_LEVELS extends Error {
 SystemErrorsMap["ELOOP"] = ERROR_TOO_MANY_SYMLINKS_LEVELS;
 
 /**
- * Thrown when too many files are open. Maps to EMFILE and ENFILE
+ * Thrown when too many files are open. Maps to EMFILE. and ENFILE
  * @class ERROR_TOO_MANY_OPEN_FILES
  * @extends Error
  */
@@ -441,7 +441,7 @@ SystemErrorsMap["EMFILE"] = ERROR_TOO_MANY_OPEN_FILES;
 SystemErrorsMap["ENFILE"] = ERROR_TOO_MANY_OPEN_FILES;
 
 /**
- * Thrown when too many hard links to the file. Maps to EMLINK
+ * Thrown when too many hard links to the file. Maps to EMLINK.
  * @class ERROR_TOO_MANY_LINKS_TO_FILE
  * @extends Error
  */
@@ -454,7 +454,7 @@ class ERROR_TOO_MANY_LINKS_TO_FILE extends Error {
 SystemErrorsMap["EMLINK"] = ERROR_TOO_MANY_LINKS_TO_FILE;
 
 /**
- * Thrown when the provided message is too long. Maps to EMSGSIZE
+ * Thrown when the provided message is too long. Maps to EMSGSIZE.
  * @class ERROR_MESSAGE_TOO_LONG
  * @extends Error
  */
@@ -467,7 +467,7 @@ class ERROR_MESSAGE_TOO_LONG extends Error {
 SystemErrorsMap["EMSGSIZE"] = ERROR_MESSAGE_TOO_LONG;
 
 /**
- * Thrown when a multihop was attempted. Maps to EMULTIHOP
+ * Thrown when a multihop was attempted. Maps to EMULTIHOP.
  * @class ERROR_MULTIHOP_ATTEMPTED
  * @extends Error
  */
@@ -480,7 +480,7 @@ class ERROR_MULTIHOP_ATTEMPTED extends Error {
 SystemErrorsMap["EMULTIHOP"] = ERROR_MULTIHOP_ATTEMPTED;
 
 /**
- * Thrown when the filename is too long. Maps to ENAMETOOLONG
+ * Thrown when the filename is too long. Maps to ENAMETOOLONG.
  * @class ERROR_FILENAME_TOO_LONG
  * @extends Error
  */
@@ -493,7 +493,7 @@ class ERROR_FILENAME_TOO_LONG extends Error {
 SystemErrorsMap["ENAMETOOLONG"] = ERROR_FILENAME_TOO_LONG;
 
 /**
- * Thrown when the network is down. Maps to ENETDOWN
+ * Thrown when the network is down. Maps to ENETDOWN.
  * @class ERROR_NETWORK_IS_DOWN
  * @extends Error
  */
@@ -506,7 +506,7 @@ class ERROR_NETWORK_IS_DOWN extends Error {
 SystemErrorsMap["ENETDOWN"] = ERROR_NETWORK_IS_DOWN;
 
 /**
- * Thrown when the connection has been aborted by the network. Maps to ENETRESET
+ * Thrown when the connection has been aborted by the network. Maps to ENETRESET.
  * @class ERROR_CONNECTION_ABORTED_BY_NETWORK
  * @extends Error
  */
@@ -519,7 +519,7 @@ class ERROR_CONNECTION_ABORTED_BY_NETWORK extends Error {
 SystemErrorsMap["ENETRESET"] = ERROR_CONNECTION_ABORTED_BY_NETWORK;
 
 /**
- * Thrown when the network is unreachable. Maps to ENETUNREACH
+ * Thrown when the network is unreachable. Maps to ENETUNREACH.
  * @class ERROR_NETWORK_UNREACHABLE
  * @extends Error
  */
@@ -532,7 +532,7 @@ class ERROR_NETWORK_UNREACHABLE extends Error {
 SystemErrorsMap["ENETUNREACH"] = ERROR_NETWORK_UNREACHABLE;
 
 /**
- * Thrown when no buffer space is available. Maps to ENOBUFS
+ * Thrown when no buffer space is available. Maps to ENOBUFS.
  * @class ERROR_NO_BUFFER_SPACE_AVAILABLE
  * @extends Error
  */
@@ -545,7 +545,7 @@ class ERROR_NO_BUFFER_SPACE_AVAILABLE extends Error {
 SystemErrorsMap["ENOBUFS"] = ERROR_NO_BUFFER_SPACE_AVAILABLE;
 
 /**
- * Thrown when no message is available on the stream head read queue. Maps to ENODATA
+ * Thrown when no message is available on the stream head read queue. Maps to ENODATA.
  * @class ERROR_NO_MESSAGE_AVAILABLE_ON_STREAM
  * @extends Error
  */
@@ -558,7 +558,7 @@ class ERROR_NO_MESSAGE_AVAILABLE_ON_STREAM extends Error {
 SystemErrorsMap["ENODATA"] = ERROR_NO_MESSAGE_AVAILABLE_ON_STREAM;
 
 /**
- * Thrown when there is no such device. Maps to ENODEV
+ * Thrown when there is no such device. Maps to ENODEV.
  * @class ERROR_NO_SUCH_DEVICE
  * @extends Error
  */
@@ -571,7 +571,7 @@ class ERROR_NO_SUCH_DEVICE extends Error {
 SystemErrorsMap["ENODEV"] = ERROR_NO_SUCH_DEVICE;
 
 /**
- * Thrown when no such file or directory exists. Maps to ENOENT
+ * Thrown when no such file or directory exists. Maps to ENOENT.
  * @class ERROR_NO_SUCH_FILE_OR_DIRECTORY
  * @extends Error
  */
@@ -584,7 +584,7 @@ class ERROR_NO_SUCH_FILE_OR_DIRECTORY extends Error {
 SystemErrorsMap["ENOENT"] = ERROR_NO_SUCH_FILE_OR_DIRECTORY;
 
 /**
- * Thrown when an exec format error occurs. Maps to ENOEXEC
+ * Thrown when an exec format error occurs. Maps to ENOEXEC.
  * @class ERROR_EXEC_FORMAT
  * @extends Error
  */
@@ -597,7 +597,7 @@ class ERROR_EXEC_FORMAT extends Error {
 SystemErrorsMap["ENOEXEC"] = ERROR_EXEC_FORMAT;
 
 /**
- * Thrown when no locks are available. Maps to ENOLCK
+ * Thrown when no locks are available. Maps to ENOLCK.
  * @class ERROR_NO_LOCKS_AVAILABLE
  * @extends Error
  */
@@ -610,7 +610,7 @@ class ERROR_NO_LOCKS_AVAILABLE extends Error {
 SystemErrorsMap["ENOLCK"] = ERROR_NO_LOCKS_AVAILABLE;
 
 /**
- * Thrown when a link has been severed. Maps to ENOLINK
+ * Thrown when a link has been severed. Maps to ENOLINK.
  * @class ERROR_LINK_SEVERED
  * @extends Error
  */
@@ -623,7 +623,7 @@ class ERROR_LINK_SEVERED extends Error {
 SystemErrorsMap["ENOLINK"] = ERROR_LINK_SEVERED;
 
 /**
- * Thrown when there is not enough space. Maps to ENOMEM
+ * Thrown when there is not enough space. Maps to ENOMEM.
  * @class ERROR_NOT_ENOUGH_SPACE
  * @extends Error
  */
@@ -636,7 +636,7 @@ class ERROR_NOT_ENOUGH_SPACE extends Error {
 SystemErrorsMap["ENOMEM"] = ERROR_NOT_ENOUGH_SPACE;
 
 /**
- * Thrown when no message of the desired type is available. Maps to ENOMSG
+ * Thrown when no message of the desired type is available. Maps to ENOMSG.
  * @class ERROR_NO_MESSAGE_OF_DESIRED_TYPE
  * @extends Error
  */
@@ -649,7 +649,7 @@ class ERROR_NO_MESSAGE_OF_DESIRED_TYPE extends Error {
 SystemErrorsMap["ENOMSG"] = ERROR_NO_MESSAGE_OF_DESIRED_TYPE;
 
 /**
- * Thrown when a given protocol is not available. Maps to ENOPROTOOPT
+ * Thrown when a given protocol is not available. Maps to ENOPROTOOPT.
  * @class ERROR_PROTOCOL_NOT_AVAILABLE
  * @extends Error
  */
@@ -662,7 +662,7 @@ class ERROR_PROTOCOL_NOT_AVAILABLE extends Error {
 SystemErrorsMap["ENOPROTOOPT"] = ERROR_PROTOCOL_NOT_AVAILABLE;
 
 /**
- * Thrown when no space is available on the device. Maps to ENOSPC
+ * Thrown when no space is available on the device. Maps to ENOSPC.
  * @class ERROR_NO_SPACE_ON_DEVICE
  * @extends Error
  */
@@ -675,7 +675,7 @@ class ERROR_NO_SPACE_ON_DEVICE extends Error {
 SystemErrorsMap["ENOSPC"] = ERROR_NO_SPACE_ON_DEVICE;
 
 /**
- * Thrown when no stream resources are available. Maps to ENOSR
+ * Thrown when no stream resources are available. Maps to ENOSR.
  * @class ERROR_NO_STREAM_RESOURCES_AVAILABLE
  * @extends Error
  */
@@ -688,7 +688,7 @@ class ERROR_NO_STREAM_RESOURCES_AVAILABLE extends Error {
 SystemErrorsMap["ENOSR"] = ERROR_NO_STREAM_RESOURCES_AVAILABLE;
 
 /**
- * Thrown when the resource is not a stream. Maps to ENOSTR
+ * Thrown when the resource is not a stream. Maps to ENOSTR.
  * @class ERROR_RESOURCE_NOT_A_STREAM
  * @extends Error
  */
@@ -701,7 +701,7 @@ class ERROR_RESOURCE_NOT_A_STREAM extends Error {
 SystemErrorsMap["ENOSTR"] = ERROR_RESOURCE_NOT_A_STREAM;
 
 /**
- * Thrown when the function has not been implemented. Maps to ENOSYS
+ * Thrown when the function has not been implemented. Maps to ENOSYS.
  * @class ERROR_FUNCTION_NOT_IMPLEMENTED
  * @extends Error
  */
@@ -714,7 +714,7 @@ class ERROR_FUNCTION_NOT_IMPLEMENTED extends Error {
 SystemErrorsMap["ENOSYS"] = ERROR_FUNCTION_NOT_IMPLEMENTED;
 
 /**
- * Thrown when the socket is not connected. Maps to ENOTCONN
+ * Thrown when the socket is not connected. Maps to ENOTCONN.
  * @class ERROR_SOCKET_NOT_CONNECTED
  * @extends Error
  */
@@ -727,7 +727,7 @@ class ERROR_SOCKET_NOT_CONNECTED extends Error {
 SystemErrorsMap["ENOTCONN"] = ERROR_SOCKET_NOT_CONNECTED;
 
 /**
- * Thrown when the path is not a directory. Maps to ENOTDIR
+ * Thrown when the path is not a directory. Maps to ENOTDIR.
  * @class ERROR_NOT_A_DIRECTORY
  * @extends Error
  */
@@ -740,7 +740,7 @@ class ERROR_NOT_A_DIRECTORY extends Error {
 SystemErrorsMap["ENOTDIR"] = ERROR_NOT_A_DIRECTORY;
 
 /**
- * Thrown when the directory is not empty. Maps to ENOTEMPTY
+ * Thrown when the directory is not empty. Maps to ENOTEMPTY.
  * @class ERROR_DIRECTORY_NOT_EMPTY
  * @extends Error
  */
@@ -753,7 +753,7 @@ class ERROR_DIRECTORY_NOT_EMPTY extends Error {
 SystemErrorsMap["ENOTEMPTY"] = ERROR_DIRECTORY_NOT_EMPTY;
 
 /**
- * Thrown when the host name was not found. Maps to ENOTFOUND
+ * Thrown when the host name was not found. Maps to ENOTFOUND.
  * @class ERROR_HOSTNAME_NOT_FOUND
  * @extends Error
  */
@@ -766,7 +766,7 @@ class ERROR_HOSTNAME_NOT_FOUND extends Error {
 SystemErrorsMap["ENOTFOUND"] = ERROR_HOSTNAME_NOT_FOUND;
 
 /**
- * Thrown when the given item is not a socket. Maps to ENOTSOCK
+ * Thrown when the given item is not a socket. Maps to ENOTSOCK.
  * @class ERROR_NOT_A_SOCKET
  * @extends Error
  */
@@ -779,7 +779,7 @@ class ERROR_NOT_A_SOCKET extends Error {
 SystemErrorsMap["ENOTSOCK"] = ERROR_NOT_A_SOCKET;
 
 /**
- * Thrown when a given operation is not supported. Maps to ENOTSUP
+ * Thrown when a given operation is not supported. Maps to ENOTSUP.
  * @class ERROR_OPERATION_NOT_SUPPORTED
  * @extends Error
  */
@@ -792,7 +792,7 @@ class ERROR_OPERATION_NOT_SUPPORTED extends Error {
 SystemErrorsMap["ENOTSUP"] = ERROR_OPERATION_NOT_SUPPORTED;
 
 /**
- * Thrown when an inappropriate I/O control operation is attempted. Maps to ENOTTY
+ * Thrown when an inappropriate I/O control operation is attempted. Maps to ENOTTY.
  * @class ERROR_INAPPROPRIATE_IO_CONTROL_OPERATION
  * @extends Error
  */
@@ -805,7 +805,7 @@ class ERROR_INAPPROPRIATE_IO_CONTROL_OPERATION extends Error {
 SystemErrorsMap["ENOTTY"] = ERROR_INAPPROPRIATE_IO_CONTROL_OPERATION;
 
 /**
- * Thrown when no such device or address exists. Maps to ENXIO
+ * Thrown when no such device or address exists. Maps to ENXIO.
  * @class ERROR_NO_SUCH_DEVICE_OR_ADDRESS
  * @extends Error
  */
@@ -818,7 +818,7 @@ class ERROR_NO_SUCH_DEVICE_OR_ADDRESS extends Error {
 SystemErrorsMap["ENXIO"] = ERROR_NO_SUCH_DEVICE_OR_ADDRESS;
 
 /**
- * Thrown when an operation is not supported on the socket. Maps to EOPNOTSUPP
+ * Thrown when an operation is not supported on the socket. Maps to EOPNOTSUPP.
  * @class ERROR_OPERATION_NOT_SUPPORTED_ON_SOCKET
  * @extends Error
  */
@@ -831,7 +831,7 @@ class ERROR_OPERATION_NOT_SUPPORTED_ON_SOCKET extends Error {
 SystemErrorsMap["EOPNOTSUPP"] = ERROR_OPERATION_NOT_SUPPORTED_ON_SOCKET;
 
 /**
- * Thrown when a value is too large to be stored in data type. Maps to EOVERFLOW
+ * Thrown when a value is too large to be stored in data type. Maps to EOVERFLOW.
  * @class ERROR_VALUE_TOO_LARGE
  * @extends Error
  */
@@ -844,7 +844,7 @@ class ERROR_VALUE_TOO_LARGE extends Error {
 SystemErrorsMap["EOVERFLOW"] = ERROR_VALUE_TOO_LARGE;
 
 /**
- * Thrown when the operation is not permitted. Maps to EPERM
+ * Thrown when the operation is not permitted. Maps to EPERM.
  * @class ERROR_OPERATION_NOT_PERMITTED
  * @extends Error
  */
@@ -857,7 +857,7 @@ class ERROR_OPERATION_NOT_PERMITTED extends Error {
 SystemErrorsMap["EPERM"] = ERROR_OPERATION_NOT_PERMITTED;
 
 /**
- * Thrown when a broken pipe is encountered. Maps to EPIPE
+ * Thrown when a broken pipe is encountered. Maps to EPIPE.
  * @class ERROR_BROKEN_PIPE
  * @extends Error
  */
@@ -870,7 +870,7 @@ class ERROR_BROKEN_PIPE extends Error {
 SystemErrorsMap["EPIPE"] = ERROR_BROKEN_PIPE;
 
 /**
- * Thrown when a protocol error occurs. Maps to EPROTO
+ * Thrown when a protocol error occurs. Maps to EPROTO.
  * @class ERROR_PROTOCOL_ERROR
  * @extends Error
  */
@@ -883,7 +883,7 @@ class ERROR_PROTOCOL_ERROR extends Error {
 SystemErrorsMap["EPROTO"] = ERROR_PROTOCOL_ERROR;
 
 /**
- * Thrown when the protocol is not supported. Maps to EPROTONOSUPPORT
+ * Thrown when the protocol is not supported. Maps to EPROTONOSUPPORT.
  * @class ERROR_PROTOCOL_NOT_SUPPORTED
  * @extends Error
  */
@@ -896,7 +896,7 @@ class ERROR_PROTOCOL_NOT_SUPPORTED extends Error {
 SystemErrorsMap["EPROTONOSUPPORT"] = ERROR_PROTOCOL_NOT_SUPPORTED;
 
 /**
- * Thrown when the wrong type of protocol is used for a socket. Maps to EPROTOTYPE
+ * Thrown when the wrong type of protocol is used for a socket. Maps to EPROTOTYPE.
  * @class ERROR_WRONG_PROTOCOL_TYPE_FOR_SOCKET
  * @extends Error
  */
@@ -909,7 +909,7 @@ class ERROR_WRONG_PROTOCOL_TYPE_FOR_SOCKET extends Error {
 SystemErrorsMap["EPROTOTYPE"] = ERROR_WRONG_PROTOCOL_TYPE_FOR_SOCKET;
 
 /**
- * Thrown when the result is too large. Maps to ERANGE
+ * Thrown when the result is too large. Maps to ERANGE.
  * @class ERROR_RESULT_TOO_LARGE
  * @extends Error
  */
@@ -922,7 +922,7 @@ class ERROR_RESULT_TOO_LARGE extends Error {
 SystemErrorsMap["ERANGE"] = ERROR_RESULT_TOO_LARGE;
 
 /**
- * Thrown when the file system is read-only. Maps to EROFS
+ * Thrown when the file system is read-only. Maps to EROFS.
  * @class ERROR_READ_ONLY_FILE_SYSTEM
  * @extends Error
  */
@@ -935,7 +935,7 @@ class ERROR_READ_ONLY_FILE_SYSTEM extends Error {
 SystemErrorsMap["EROFS"] = ERROR_READ_ONLY_FILE_SYSTEM;
 
 /**
- * Thrown when an invalid seek operation is attempted. Maps to ESPIPE
+ * Thrown when an invalid seek operation is attempted. Maps to ESPIPE.
  * @class ERROR_INVALID_SEEK_OPERATION
  * @extends Error
  */
@@ -948,7 +948,7 @@ class ERROR_INVALID_SEEK_OPERATION extends Error {
 SystemErrorsMap["ESPIPE"] = ERROR_INVALID_SEEK_OPERATION;
 
 /**
- * Thrown when no such process exists. Maps to ESRCH
+ * Thrown when no such process exists. Maps to ESRCH.
  * @class ERROR_NO_SUCH_PROCESS
  * @extends Error
  */
@@ -961,7 +961,7 @@ class ERROR_NO_SUCH_PROCESS extends Error {
 SystemErrorsMap["ESRCH"] = ERROR_NO_SUCH_PROCESS;
 
 /**
- * Thrown when the file handle is stale. Maps to ESTALE
+ * Thrown when the file handle is stale. Maps to ESTALE.
  * @class ERROR_STALE_FILE_HANDLE
  * @extends Error
  */
@@ -974,7 +974,7 @@ class ERROR_STALE_FILE_HANDLE extends Error {
 SystemErrorsMap["ESTALE"] = ERROR_STALE_FILE_HANDLE;
 
 /**
- * Thrown when the timer expires. Maps to ETIME
+ * Thrown when the timer expires. Maps to ETIME.
  * @class ERROR_TIMER_EXPIRED
  * @extends Error
  */
@@ -987,7 +987,7 @@ class ERROR_TIMER_EXPIRED extends Error {
 SystemErrorsMap["ETIME"] = ERROR_TIMER_EXPIRED;
 
 /**
- * Thrown when the connection times out. Maps to ETIMEDOUT
+ * Thrown when the connection times out. Maps to ETIMEDOUT.
  * @class ERROR_CONNECTION_TIMEOUT
  * @extends Error
  */
@@ -1000,7 +1000,7 @@ class ERROR_CONNECTION_TIMEOUT extends Error {
 SystemErrorsMap["ETIMEDOUT"] = ERROR_CONNECTION_TIMEOUT;
 
 /**
- * Thrown when a text file is busy. Maps to ETXTBSY
+ * Thrown when a text file is busy. Maps to ETXTBSY.
  * @class ERROR_TEXT_FILE_BUSY
  * @extends Error
  */
@@ -1013,7 +1013,7 @@ class ERROR_TEXT_FILE_BUSY extends Error {
 SystemErrorsMap["ETXTBSY"] = ERROR_TEXT_FILE_BUSY;
 
 /**
- * Thrown when the operation would block. Maps to EWOULDBLOCK
+ * Thrown when the operation would block. Maps to EWOULDBLOCK.
  * @class ERROR_OPERATION_WOULD_BLOCK
  * @extends Error
  */
@@ -1026,7 +1026,7 @@ class ERROR_OPERATION_WOULD_BLOCK extends Error {
 SystemErrorsMap["EWOULDBLOCK"] = ERROR_OPERATION_WOULD_BLOCK;
 
 /**
- * Thrown when an improper link is found. Maps to EXDEV
+ * Thrown when an improper link is found. Maps to EXDEV.
  * @class ERROR_IMPROPER_LINK
  * @extends Error
  */
