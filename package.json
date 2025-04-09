@@ -14,7 +14,7 @@
 		"name": "Juan F. Abello",
 		"email": "juan@jfabello.com"
 	},
-	"main": "system-errors.js",
+	"main": "src/system-errors.js",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/jfabello/system-errors.git"
