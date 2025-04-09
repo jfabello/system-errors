@@ -1,6 +1,6 @@
 {
 	"name": "@jfabello/system-errors",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"description": "Custom system error classes for Node.js that map to POSIX system errors. Based on the file https://github.com/nodejs/node/blob/main/doc/api/os.md.",
 	"keywords": [
 		"posix",
