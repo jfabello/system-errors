@@ -10,7 +10,9 @@ This module helps developers handle POSIX system errors with meaningful and desc
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [POSIX Error Constants Mapped](#posix-system-errors-mapped)
+  - [Creating Errors Based on System Error Codes](#creating-errors-based-on-system-error-codes)
+  - [Custom System Error Classes](#custom-system-error-classes)
+- [POSIX System Errors Mapped](#posix-system-errors-mapped)
 - [Contributing](#contributing)
 - [License](#license)
 
