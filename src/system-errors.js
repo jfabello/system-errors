@@ -1152,4 +1152,4 @@ const errors = {
 
 Object.freeze(errors);
 
-module.exports = { createErrorFromSystemErrorCode, errors };
+export { createErrorFromSystemErrorCode, errors };
