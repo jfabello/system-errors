@@ -1,3 +1,16 @@
-import js from '@eslint/js';
+import js from "@eslint/js";
+import globals from "globals";
+import { defineConfig } from "eslint/config";
 
-export default [js.configs.recommended];
+const eslintConfig = {
+	files: ["**/*.js"],
+	plugins: { js },
+	extends: ["js/recommended"],
+	languageOptions: {
+		ecmaVersion: 2022,
+		sourceType: "module",
+		globals: globals.node
+	}
+};
+
+export default defineConfig([eslintConfig]);
