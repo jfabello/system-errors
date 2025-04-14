@@ -29,7 +29,7 @@ npm install @jfabello/system-errors
 After installation, import the module and use the `createErrorFromSystemErrorCode()` method or the predefined custom system error classes in your application:
 
 ```javascript
-const systemErrors = require("@jfabello/system-errors");
+import { errors as systemErrors } from "@jfabello/system-errors";
 
 try {
 	// Some code that might throw a POSIX system error
@@ -47,6 +47,8 @@ try {
 This module provides a `createErrorFromSystemErrorCode()` method, which dynamically creates a custom system error object based on the POSIX system error code:
 
 ```javascript
+import { errors as systemErrors } from "@jfabello/system-errors";
+
 const error = systemErrors.createErrorFromSystemErrorCode("EACCES");
 console.log(error.message); // Output: The operation does not have enough permissions.
 ```
@@ -58,7 +60,8 @@ This method takes a string as its only argument. It returns an instance of the c
 The module also provides predefined custom system error classes that can be used directly in your code. These classes can be accessed via the `errors` object. Each class represents a specific POSIX system error and has a descriptive message associated with it:
 
 ```javascript
-const systemErrors = require("@jfabello/system-errors");
+import { errors as systemErrors } from "@jfabello/system-errors";
+
 const error = new systemErrors.errors.ERROR_NO_ACCESS();
 console.log(error.message); // Output: The operation does not have enough permissions.
 ```
