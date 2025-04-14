@@ -1058,7 +1058,7 @@ class ERROR_UNKNOWN extends Error {
  */
 
 function createErrorFromSystemErrorCode(systemErrorCode) {
-	if (SystemErrorsMap.hasOwnProperty(systemErrorCode) === true) {
+	if (systemErrorCode in SystemErrorsMap === true) {
 		let errorClass = SystemErrorsMap[systemErrorCode];
 		return new errorClass();
 	} else {
