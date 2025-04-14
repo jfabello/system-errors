@@ -21,6 +21,10 @@
 		"url": "https://github.com/jfabello/system-errors.git"
 	},
 	"engines": {
-		"node": ">=18"
+		"node": ">=20"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.0.0",
+		"eslint": "^9.0.0"
 	}
 }
